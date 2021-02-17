@@ -161,32 +161,3 @@ button_carrot.grid(row = 4, column = 2)
 
 root.mainloop()
 
-# for num in range(1,10):
-#use global?
-# 	if num > 0 and num <= 3:
-# 		num_button.grid(row = 3, column = num - 1)
-
-# 	elif num > 3 and num <= 6:
-# 		num_button.grid(row = 2, column = num - 4)
-
-# 	else:
-# 		num_button.grid(row = 1, column = num - 7)
-
-
-#Dangerous solution!
-	# if number == '=':
-	# 	try:
-	# 		new_num = eval(numberfield.get())
-	# 		numberfield.delete(0, END)
-	# 		numberfield.insert(0, new_num)
-	# 	except ZeroDivisionError:
-	# 		numberfield.delete(0, END)
-	# 		numberfield.insert(0, 'Divide By Zero Error')
-
-	# elif number == 'CLEAR':
-	# 	numberfield.delete(0, END)
-
-	# else:
-	# 	numberfield.insert(END, number)
-
-
